@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Trinket image save test</title>
+  <meta name="description" content="Trinket image save test">
+  <meta name="author" content="test">
+
+
+</head>
+
+<body>
+
+<ol>
+    <li>
+        Høyreklikk på denne linken:
+        <a href=" javascript:function download(url, filename) { fetch(url).then(function(t) { return t.blob().then((b)=>{ var a = document.createElement('a'); a.href = URL.createObjectURL(b); a.setAttribute('download', filename); a.click(); } ); }); }; download(document.getElementById('trinket-iframe').contentDocument.getElementById('graphic').children[1].toDataURL(), 'turtle.png')">trinket nedlastning</a>
+        og lagre den som et bokmerke på nettleseren din.
+    </li>
+    <li>
+        Gå inn på trinket og tegn en tegning med turtle. (evt bruk denne linken for å få opp en ferdig en: <a href="https://trinket.io/turtle/fa742429a3">link</a>)
+    </li>
+    <li>
+        Mens du er inne i trinketvinduet, trykk på bokmerket du lagret i steg 1
+    </li>
+    <li>
+        Hvis alt fungerer som det skal så skal turtle tegningen bli lagret i nedlastninger- mappa på pcen din som turtle.png
+    </li>
+</ol>
+
+
+
+
+</body>
+</html>
